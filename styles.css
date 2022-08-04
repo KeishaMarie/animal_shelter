@@ -5,18 +5,40 @@ title {  /*  Lines 3 and 4 make centering of the text happen.  */
 }
 
 
-/* This next CSS Rule utilizes/takes advantage of the Property of inheritance.*/ 
+/* This next CSS Rule utilizes/takes advantage of the Property of inheritance. 
 body {  
-  margin: auto; 
+  /* margin: auto; 
   width: 50%; 
   height: auto; 
-  display: block; 
+  /*display: block; 
   font-size: 20pt; 
+  float: center;
+} 
+*/ 
+
+
+.column { 
+  float: center;
+  width: 50%; 
+  height: auto; 
+  font-size: 16pt; 
+  padding: 10px; 
+  border-width: 5px; 
+  border-color: black;   
 } 
 
 
+/*
+body.column {
+  float: center; 
+}
+*/
+
+/*
 .animal-img { 
   width: 50%; 
-} 
+  margin: auto;
+  /*display: block; 
+}*/ 
 
 
