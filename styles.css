@@ -1,0 +1,22 @@
+title {  /*  Lines 3 and 4 make centering of the text happen.  */
+  font-size: 36pt; 
+  margin: auto; 
+  display: block; 
+}
+
+
+/* This next CSS Rule utilizes/takes advantage of the Property of inheritance.*/ 
+body {  
+  margin: auto; 
+  width: 50%; 
+  height: auto; 
+  display: block; 
+  font-size: 20pt; 
+} 
+
+
+.animal-img { 
+  width: 50%; 
+} 
+
+
